@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINESS PLAN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <!--------------------------menu------------------>
+    <div id="sideNav">
+        <nav>
+          <ul>
+              <li><a href="index.html#banner">Home</a></li>
+              <li><a href="index.html#About">About us</a></li>
+              <li><a href="index.html#feature">Features</a></li>
+              <li><a href="index.html#courses">Courses</a></li>
+              <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuBtn">
+          <img src="/res/img/Menu_Icon_White_Png-removebg-preview.png" id="menu">
+      </div>
+ 
+ <!----------------fin menu------------------------>
+ <!------------------Contenu------------------>
+ <div class="cont">
+    <div class="part-1">
+
+      <div class="pic"><img src="res/coaches/youcef-abdelil-BP.png" alt=""></div>
+      <div class="cls"></div>
+
+      <div class="social">
+        <a href="https://www.instagram.com/weezy_thereal/"><img class="insta" src="res/img/instagram.svg" alt=""></a>
+        <a href="https://www.facebook.com/joseph.Zenoud.94"> <img class="face" src="res/img/facebook.svg" alt=""> </a>
+      </div>
+      <div class="cls"></div>
+      <a target="_blank" class="app" href="https://docs.google.com/forms/d/e/1FAIpQLSeINfDyC7AiWLVqM_3XaHNQrwD3oPARZ8YEblXWHtAv58MVgA/viewform">Apply
+      </a>
+    </div>
+    <div class="part-2">
+      <h1>Name : YOUCEF ABDELIL</h1> <br>
+      <h1> Description</h1>
+      <div class="dest">
+        <ul>
+          <li>Founder of Djewal Travel &amp; Amnesia</li>
+          <li>coach in entrepreneurship </li>
+          <li>has a diploma in managment</li>
+        </ul>
+      </div>
+      <h1>About This Course</h1>
+      <div class="break"></div>
+      <div class="dest">
+        In this course, we will dive deep into the intricacies of creating a successful business plan. We understand
+        that a well-crafted plan is the foundation of any thriving venture. Through practical insights and
+        step-by-step
+        guidance, we will walk you through the process of conducting market research, analyzing competitors, and
+        developing financial projections. By the end of the course, you will be equipped with the skills and tools to
+        create a robust and effective business plan.</div>
+      <div class="break"></div>
+      <div class="dest">
+        Beyond the technical aspects, we also emphasize the importance of cultivating an entrepreneurial mindset. Our
+        coaching will help you develop the resilience, adaptability, and innovative thinking necessary to thrive in
+        the
+        ever-changing business landscape. We will explore effective decision-making strategies, problem-solving
+        techniques, and methods to foster creativity. These skills will empower you to navigate challenges and seize
+        opportunities as you build and grow your business.</div>
+
+      <div class="break"></div>
+      <div class="dest">
+        Whether you are just starting your entrepreneurial journey or looking to elevate your existing business, this
+        coaching program is designed to provide you with invaluable insights and practical knowledge. Join us as we
+        unlock the secrets to entrepreneurial success, guide you through the intricacies of business planning, and
+        equip
+        you with the mindset and skills to make informed decisions and drive your business forward.</div>
+      <div class="break"></div>
+
+      <div class="dest">
+        Embrace the opportunity to learn from experienced entrepreneurs and gain the confidence and expertise needed
+        to
+        turn your entrepreneurial dreams into reality. Enroll in our entrepreneurship coaching program today and set
+        yourself on the path to business success.
+
+      </div>
+    </div>
+
+
+</div>
+
+<!-------------------------script------------------------------->
+<script>
+  var menuBtn = document.getElementById("menuBtn")
+  var sideNav = document.getElementById("sideNav")
+  var menu = document.getElementById("menu")
+
+  sideNav.style.right = "-300px";
+
+  menuBtn.onclick = function(){
+      if(sideNav.style.right == "-300px"){
+          sideNav.style.right = "0";
+          menu.src = "/res/img/Close_Icon.png";
+      }
+      else{
+          sideNav.style.right = "-300px";
+          menu.src = "/res/img/Menu_Icon_White_Png-removebg-preview.png";
+      }
+  }
+</script>
+ </body>
+ </html>

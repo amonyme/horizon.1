@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUTRITION CULTURE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rabah.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <!--------------------------menu------------------>
+    <div id="sideNav">
+        <nav>
+          <ul>
+            <li><a href="index.html#banner">Home</a></li>
+            <li><a href="index.html#About">About us</a></li>
+            <li><a href="index.html#feature">Features</a></li>
+            <li><a href="index.html#courses">Courses</a></li>
+            <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuBtn">
+          <img src="/res/img/Menu_Icon_White_Png-removebg-preview.png" id="menu">
+      </div>
+ 
+ <!----------------fin menu------------------------>
+ <!------------------Contenu------------------>
+
+
+ <div class="cont">
+    <div class="part-1">
+
+      <div class="pic"><img src="res/coaches/Zine-Hamza.png" alt=""></div>
+      <div class="cls"></div>
+
+      <div class="social">
+        <a href=""><img class="insta" src="res/img/instagram.svg" alt=""></a>
+      </div>
+      <div class="cls"></div>
+      <a target="_blank" class="app" href="#">Apply
+      </a>
+    </div>
+    <div class="part-2">
+      <h1>Name : ZINE HAMZA</h1> <br>
+      <h1> Description:</h1>
+      <div class="dest">
+        <ul>
+          <li>Nutrition culture coach</li>
+          <li>Chef</li>
+        </ul>
+      </div>
+      <h1>About This Course:</h1>
+      <div class="dest">
+        The Nutrition Culture Training Program is a transformative and immersive course designed to provide
+        individuals with a deep understanding of the principles of healthy eating and cultivate a positive and
+        balanced relationship with food. In this comprehensive program, participants embark on a journey of
+        self-discovery and empowerment, gaining the knowledge, skills, and tools necessary to make informed dietary
+        decisions and develop a sustainable nutrition culture for long-term health and vitality.</div>
+
+      <div class="break"></div>
+      <div class="dest">
+        Throughout the program, our experienced instructors guide participants through interactive sessions that are
+        both engaging and enlightening. The curriculum covers a wide range of topics, starting with the fundamentals
+        of nutrition basics. Participants learn about macronutrients, micronutrients, and the importance of
+        maintaining a well-balanced diet. They gain a solid understanding of how different nutrients impact the body,
+        promoting optimal physical and mental health.</div>
+
+      <div class="break"></div>
+      <div class="dest">
+
+        Mindful eating is another key aspect of the program. Participants delve into the practice of being fully
+        present and aware of their eating experience. They learn how to listen to their body's hunger and fullness
+        cues, savor each bite, and appreciate the nourishment provided by the food they consume. Mindful eating helps
+        participants develop a healthier relationship with food, leading to improved digestion, reduced overeating,
+        and a greater sense of overall well-being.</div>
+
+      <div class="break"></div>
+      <div class="dest">
+        In addition to the core curriculum, the program also addresses the impact of food choices on various aspects
+        of life. Participants explore the connections between nutrition and energy levels, cognitive function, sleep
+        quality, and emotional well-being. They discover how certain foods can support or hinder these areas, and they
+        gain insights into making conscious choices that promote optimal health and vitality.</div>
+      <div class="break"></div>
+      <div class="dest">
+        By the end of the Nutrition Culture Training Program, participants emerge with a profound understanding of
+        nutrition principles, enhanced meal planning skills, and a deep appreciation for mindful eating. They are
+        equipped with the knowledge and tools to navigate the complexities of the modern food landscape and make
+        choices that align with their personal health goals. This program goes beyond a mere diet plan; it fosters a
+        sustainable nutrition culture that promotes long-term well-being, vitality, and a positive relationship with
+        food. Join us on this transformative journey and unlock your potential for a healthier, happier, and more
+        fulfilling life.</div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-------------------------script------------------------------->
+ <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-300px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-300px"){
+            sideNav.style.right = "0";
+            menu.src = "/res/img/Close_Icon.png";
+        }
+        else{
+            sideNav.style.right = "-300px";
+            menu.src = "/res/img/Menu_Icon_White_Png-removebg-preview.png";
+        }
+    }
+</script>
+</body>
+</html>

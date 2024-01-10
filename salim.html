@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB DEVELOPMENT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <!--------------------------menu------------------>
+    <div id="sideNav">
+        <nav>
+          <ul>
+            <li><a href="index.html#banner">Home</a></li>
+              <li><a href="index.html#About">About us</a></li>
+              <li><a href="index.html#feature">Features</a></li>
+              <li><a href="index.html#courses">Courses</a></li>
+              <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuBtn">
+          <img src="/res/img/Menu_Icon_White_Png-removebg-preview.png" id="menu">
+      </div>
+ 
+ <!----------------fin menu------------------------>
+ <!------------------Contenu------------------>
+
+
+ <div class="cont">
+    <div class="part-1">
+
+      <div class="pic"><img src="res/coaches/Salim-Ghalem.png" alt=""></div>
+      <div class="cls"></div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100071468707364&amp;mibextid=ZbWKwL"> <img class="face" src="res/img/facebook.svg" alt=""> </a>
+      </div>
+      <div class="cls"></div>
+      <a target="_blank" class="app" href="https://docs.google.com/forms/d/e/1FAIpQLSfIG_57YEmmK2AkrYAB98sidHySa7TLWwAhgpm6vjrz9Cpwlw/viewform">Apply
+      </a>
+    </div>
+    <div class="part-2">
+      <h1>Name : SALIM GHALEM</h1>
+      <h1> Description:</h1>
+      <div class="dest">
+        <ul>
+          <li>Étudiant 2ème année informatique</li> <br>
+          <li> Front-end Developer</li>
+        </ul>
+      </div>
+      <h1>About This Course:</h1>
+      <div class="dest">
+        <div class="break"></div>
+
+        This course is designed for computer science students or developers looking to enhance their skills as
+        front-end
+        developers. As a front-end developer, you will gain invaluable knowledge on utilizing HTML, CSS, and
+        JavaScript
+        to build stunning, interactive websites.
+        <div class="break"></div>
+
+        Throughout the program, we will guide you through the intricacies of these foundational web technologies,
+        equipping you with the expertise needed to create visually appealing and user-friendly web interfaces. You
+        will
+        learn the best practices for structuring HTML markup, styling elements with CSS, and implementing dynamic
+        functionality with JavaScript.
+
+        <div class="break"></div>
+        A key focus of this course is responsive web design, a vital skill in today's mobile-centric world. You will
+        learn how to develop websites that seamlessly adapt to different screen sizes and devices. We will explore
+        responsive design principles, frameworks, and techniques, empowering you to build websites that provide a
+        seamless and engaging user experience across various platforms.
+
+        <div class="break"></div>
+        In addition to technical skills, we will also address common challenges that junior web developers often
+        encounter. You will gain insights into troubleshooting and problem-solving techniques specific to front-end
+        development. By exploring real-world scenarios and case studies, you will develop the ability to overcome
+        obstacles and enhance your efficiency as a web developer.
+
+        <div class="break"></div>
+        Throughout the course, you will have hands-on opportunities to apply your knowledge through practical
+        exercises
+        and projects. You will work on building responsive websites, implementing interactive features, and refining
+        your problem-solving skills. This experiential approach will reinforce your understanding of the concepts and
+        empower you to apply them in real-world scenarios.
+
+        <div class="break"></div>
+        By the end of this course, you will have a solid foundation in front-end development, enabling you to create
+        visually stunning and highly functional websites. Whether you aspire to work as a front-end developer or
+        simply
+        want to enhance your programming skills, this course will provide you with the tools and knowledge to excel in
+        your journey. Join us and embark on an exciting learning experience that will set you apart in the world of
+        web
+        development.
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-------------------------script------------------------------->
+ <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-300px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-300px"){
+            sideNav.style.right = "0";
+            menu.src = "/res/img/Close_Icon.png";
+        }
+        else{
+            sideNav.style.right = "-300px";
+            menu.src = "/res/img/Menu_Icon_White_Png-removebg-preview.png";
+        }
+    }
+</script>
+</body>
+</html>

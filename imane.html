@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAND MADES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rabah.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <!--------------------------menu------------------>
+    <div id="sideNav">
+        <nav>
+          <ul>
+            <li><a href="index.html#banner">Home</a></li>
+            <li><a href="index.html#About">About us</a></li>
+            <li><a href="index.html#feature">Features</a></li>
+            <li><a href="index.html#courses">Courses</a></li>
+            <li><a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menuBtn">
+          <img src="/res/img/Menu_Icon_White_Png-removebg-preview.png" id="menu">
+      </div>
+ 
+ <!----------------fin menu------------------------>
+ <!------------------Contenu------------------>
+ <div class="cont">
+    <div class="part-1">
+
+      <div class="pic"><img src="res/coaches/Chabour-Imane.png" alt=""></div>
+      <div class="cls"></div>
+
+      <div class="social">
+        <a href="https://www.instagram.com/layn.douceur/"><img class="insta" src="res/img/instagram.svg" alt=""></a>
+      </div>
+      <div class="cls"></div>
+      <a target="_blank" class="app" href="form">Apply </a>
+    </div>
+    <div class="part-2">
+      <h1>Name :CHABOUR IMANE</h1> <br>
+      <h1> Description :</h1>
+      <ul>
+        <li>Creative workshop coach</li>
+        <li>Urbanist</li>
+        <li>Founder of the brand LAYN</li>
+        <li>Artist in the creation of open art</li>
+        <li>Creator of continuous cultural and artistic projects</li>
+        <li>Creative and animated facilitator of artistic concepts for both children and adults</li>
+      </ul>
+      
+
+      <h1>About This Course:</h1>
+
+      <div class="break"></div>
+      <div class="dest">
+        Our handmade courses are carefully curated to provide a comprehensive learning experience for individuals of
+        all
+        backgrounds and levels of expertise. Whether you are a novice enthusiast or a seasoned artisan, our courses
+        offer a diverse range of craft disciplines to ignite your passion and unlock your artistic potential.</div>
+      <div class="break"></div>
+
+      <div class="dest">
+        Discover the joy of working with your hands as we delve into a myriad of crafts, including pottery, jewelry
+        making, paper crafting, textile art, woodworking, and more. Through a combination of theory, hands-on
+        practice,
+        and step-by-step guidance, you will develop a deep understanding of each craft and the techniques required to
+        create stunning, one-of-a-kind pieces.</div>
+      <div class="break"></div>
+
+      <div class="dest">
+        In our courses, we prioritize fostering a nurturing and inclusive learning environment. We believe in
+        empowering
+        our students to embrace their creativity, encouraging them to experiment with materials and designs. Our
+        experienced instructors are dedicated to providing personalized feedback and support, ensuring that each
+        participant receives the guidance they need to thrive.</div>
+
+      <div class="break"></div>
+      <div class="dest">
+        From sourcing high-quality materials to sharing expert tips and tricks, we are committed to delivering an
+        exceptional learning experience. Through demonstrations, practical exercises, and engaging discussions, you
+        will
+        gain insights into the intricacies of each craft and learn how to infuse your unique artistic voice into your
+        creations.</div>
+      <div class="break"></div>
+
+      <div class="dest">
+        By joining our handmade courses, you will not only acquire tangible skills but also cultivate a deep
+        appreciation for the artistry and craftsmanship that goes into handmade creations. Immerse yourself in a
+        community of like-minded individuals, exchanging ideas, inspiration, and fostering lifelong connections.</div>
+      <div class="break"></div>
+
+      <div class="dest">
+        Unleash your creativity and embark on a transformative journey of self-expression. Whether you aspire to
+        create
+        beautiful objects for personal enjoyment or to share your craftsmanship with the world, our handmade courses
+        provide the tools, knowledge, and inspiration to make it happen. Embrace the art of handmade crafts and let
+        your
+        imagination soar in our immersive and empowering learning environment.
+
+      </div>
+      <div class="break"></div>
+
+    </div>
+  </div>
+  <!-------------------------script------------------------------->
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-300px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-300px"){
+            sideNav.style.right = "0";
+            menu.src = "/res/img/Close_Icon.png";
+        }
+        else{
+            sideNav.style.right = "-300px";
+            menu.src = "/res/img/Menu_Icon_White_Png-removebg-preview.png";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX DESIGNER</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <!--------------------------menu------------------>
+     <div id="sideNav">
+       <nav>
+         <ul>
+          <li><a href="index.html#banner">Home</a></li>
+              <li><a href="index.html#About">About us</a></li>
+              <li><a href="index.html#feature">Features</a></li>
+              <li><a href="index.html#courses">Courses</a></li>
+              <li><a href="index.html#contact">Contact us</a></li>
+         </ul>
+       </nav>
+     </div>
+     <div id="menuBtn">
+         <img src="/res/img/Menu_Icon_White_Png-removebg-preview.png" id="menu">
+     </div>
+
+<!----------------fin menu------------------------>
+<!------------------Contenu------------------>
+    <div class="cont">
+        <div class="part-1">
+  
+          <div class="pic"><img src="res/coaches/Rahali-rabah-Designer.png" alt=""></div>
+          <div class="cls"></div>
+  
+          <div class="social">
+            <a href="https://www.instagram.com/rabah.rhl/"><img class="insta" src="res/img/instagram.svg" alt=""></a>
+            <a href="https://www.facebook.com/rahali.rabah.21"> <img class="face" src="res/img/facebook.svg" alt=""> </a>
+  
+  
+          </div>
+          <div class="cls"></div>
+          <a target="_blank" class="app" href="https://docs.google.com/forms/d/e/1FAIpQLSdq7urZQgoS0gr6eOQP4PeVrXtDhF_N7ahfc6ea5q7jasRJXg/viewform?usp=sf_link">Apply
+          </a>
+        </div>
+        <div class="part-2">
+          <h1>Name : RAHALI RABAH</h1> <br>
+          <h1> Description : </h1>
+          <div class="dest">
+  
+            <ul>
+              <li>UI/UX  designer</li>
+              <li>Web pages creator</li>
+            </ul>
+            
+           
+          </div>
+          <h1>About This Course:</h1>
+          <div class="dest">
+            If you have a passion for creating visually captivating and user-centric digital experiences, our UI/UX Design
+            course is tailor-made for you. Throughout this program, we will equip you with the essential skills and
+            knowledge needed to excel in the field of user interface (UI) and user experience (UX) design.</div>
+          
+            <div class="break"></div>
+            <div class="dest">
+            In this course, you will delve into the world of UI/UX design, gaining proficiency in various
+            industry-standard tools such as Figma and Adobe XD. These powerful design platforms will become your creative
+            arsenal as you learn how to transform your ideas into visually stunning and functional designs.</div>
+            <div class="break"></div>
+            <div class="dest">
+            Our course places a strong emphasis on creating appealing designs that not only captivate users but also
+            provide seamless and intuitive experiences. You will learn the principles of effective visual design,
+            including color theory, typography, layout, and composition. By mastering these techniques, you will be able
+            to craft captivating interfaces that engage users and communicate the intended message effectively.</div>
+            <div class="break"></div>
+            <div class="dest">
+            Additionally, you will dive deep into the realm of user experience design. Understanding the needs, behaviors,
+            and expectations of users is crucial for creating exceptional digital experiences. We will guide you through
+            the process of conducting user research, crafting user personas, and mapping out user journeys. Through these
+            techniques, you will develop the ability to design user-centric experiences that resonate with your target
+            audience.</div>
+            <div class="break"></div>
+            <div class="dest">
+            In this course, you will have numerous opportunities to apply your skills through hands-on projects and
+            exercises. You will tackle real-world design challenges and refine your abilities to create cohesive and
+            visually appealing UI/UX solutions. By receiving feedback and guidance from experienced instructors, you will
+            grow as a designer and develop a strong portfolio that showcases your expertise.</div>
+            <div class="break"></div>
+            <div class="dest">
+            Upon completion of this course, you will have a comprehensive understanding of UI/UX design principles, as
+            well as the ability to apply them effectively in various design projects. Whether you aspire to become a UI/UX
+            designer, enhance your design skills, or work collaboratively with design teams, this course will equip you
+            with the necessary tools to succeed. Join us on this exciting journey to unleash your creativity and become a
+            skilled UI/UX designer in-demand in today's digital landscape.
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-------------------------script------------------------------->
+    <script>
+      var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+      var menu = document.getElementById("menu")
+
+      sideNav.style.right = "-300px";
+
+      menuBtn.onclick = function(){
+          if(sideNav.style.right == "-300px"){
+              sideNav.style.right = "0";
+              menu.src = "/res/img/Close_Icon.png";
+          }
+          else{
+              sideNav.style.right = "-300px";
+              menu.src = "/res/img/Menu_Icon_White_Png-removebg-preview.png";
+          }
+      }
+  </script>
+
+</body>
+</html>
